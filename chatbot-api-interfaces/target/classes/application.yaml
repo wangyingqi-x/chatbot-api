@@ -1,2 +1,12 @@
 server:
   port: 8090
+
+chatbot-api:
+  groupId: 15555515842142 # 知识星球ID
+  cookie: sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%22189c3c938fc1111-06db32a35cc72e8-7c546c76-1638720-189c3c938fd14e1%22%2C%22first_id%22%3A%22%22%2C%22props%22%3A%7B%22%24latest_traffic_source_type%22%3A%22%E5%BC%95%E8%8D%90%E6%B5%81%E9%87%8F%22%2C%22%24latest_search_keyword%22%3A%22%E6%9C%AA%E5%8F%96%E5%88%B0%E5%80%BC%22%2C%22%24latest_referrer%22%3A%22https%3A%2F%2Fwww.yuque.com%2F%22%7D%2C%22identities%22%3A%22eyIkaWRlbnRpdHlfY29va2llX2lkIjoiMTg5YzNjOTM4ZmMxMTExLTA2ZGIzMmEzNWNjNzJlOC03YzU0NmM3Ni0xNjM4NzIwLTE4OWMzYzkzOGZkMTRlMSJ9%22%2C%22history_login_id%22%3A%7B%22name%22%3A%22%22%2C%22value%22%3A%22%22%7D%2C%22%24device_id%22%3A%22189c3c938fc1111-06db32a35cc72e8-7c546c76-1638720-189c3c938fd14e1%22%7D; zsxq_access_token=0F8A38B3-D9C3-68C0-51DC-A686A3ECC5B6_AEBD09C0396ECDA1; zsxqsessionid=6ce2128d37b4ec37caa35c657eaae63c; abtest_env=product
+  openAiKey: sk-07dRqxj5Cy43cjqZ1n544Nz6TDx13Gzj7B7VU7e8Gvob8VnL
+
+
+logging:
+  level:
+    org.springframework.boot.autoconfigure: error
